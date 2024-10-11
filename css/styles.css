@@ -1,3 +1,25 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  color: var(--WHITE);
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  margin: 72px auto;
+}
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -16,21 +38,17 @@ button {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 18px;
 }
 
 .gallery-item {
   list-style: none;
-}
-
-.gallery-image {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  max-width: calc((100% - 36px) / 3);
+  width: 100%;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1128px;
   margin-left: auto;
   margin-right: auto;
 }
